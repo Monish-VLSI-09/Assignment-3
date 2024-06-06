@@ -7,7 +7,7 @@
 //
 
 
-module prayas(A,B,G,E,M,L,N_R);
+module comparator(A,B,G,E,M,L,N_R);
  input [2:0] A,B;     // 3-bit inputs A,B
  output reg G,E,M,L,N_R;   // G-gray, E-excess-3, M-more, L-less, N_R-no_relation
  parameter GRAY = 3'b000, EXCESS = 3'b001, MORE = 3'b010, LESS = 3'b011, NO_RELATION = 3'b100;
